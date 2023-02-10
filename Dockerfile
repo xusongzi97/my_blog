@@ -1,4 +1,6 @@
 FROM python:3.9.5
+MAINTAINER songzi
+USER root
 
 RUN mkdir /code
 WORKDIR /code
